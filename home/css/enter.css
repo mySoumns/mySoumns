@@ -1,0 +1,284 @@
+body,h1,h2,h3,ul,li,input,label,p {
+	margin:0;
+	padding:0;
+}
+body {
+	background:#FFF;
+	font-size: 12px;
+	color:#333;
+	font-family: "微软雅黑";
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/*top satrt*/
+.topWrap {
+	width: 100%;
+	min-width: 1000px;
+	height:88px;
+}
+.top {
+	width: 1000px;
+	height:88px;
+	line-height:88px;
+	margin:0 auto;
+	text-align: center;
+}
+.topLeft {
+	float: left;
+	
+}
+.topRight {
+	float:right;
+}
+.topLeft a {
+	float:left;
+	margin-top:11px;
+	
+}
+.topLeft h2 {
+	float:left;
+	width: 200px;
+	height: 60px;
+	line-height: 20px;
+	text-align: left;
+	margin-left:8px;
+	margin-top:14px;
+	padding-left:8px;
+	color:#666;
+	border-left:2px solid #ccc;
+}
+.topLeft h2 span {
+	display: block;
+	width:60px;
+	height:32px;
+	line-height: 32px;
+	color:#c00;
+}
+.topRight {
+	height:88px;
+	line-height: 110px;
+	margin-right:16px;
+}
+.topRight .mark {
+	color:#999;
+}
+.topRight a {
+	margin-left:16px;
+}
+.topRight .help {
+	display: inline-block;
+	float: right;
+	margin-left:24px
+}
+/*top end*/
+
+/*centent start*/
+.centent {
+	
+	width:100%;
+	min-width: 1000px;
+	height:602px;
+	background: url(../img/enter1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.centent .mainWrap {
+	position: relative;
+	width: 1000px;
+	height: 602px;
+	margin:0px auto;
+}
+.centent .main {
+	position: absolute;
+	left:650px;
+	top:100px;
+	width:350px;
+	height:406px;
+	background:#fff;
+}
+
+.centent .mainBox {
+	width: 270px;
+	height: 380px;
+	margin:20px 40px 0px 40px;
+}
+.mainBox .title {
+	height: 30px;
+}
+.mainBox .cent {
+	height: 264px;
+}
+.mainBox .bottom {
+	height: 46px;
+}
+
+.mainBox .title h2{
+	float: left;
+	margin-right:30px;
+	cursor: pointer;
+}
+.mainBox .title .current {
+	color:#d00;
+}
+.mainBox .centBox {
+	display: none;
+}
+.mainBox .current {
+	display: block;
+}
+.mainBox .cent p {
+  width: 268px;
+	height:42px;
+	border:1px solid #ccc;	
+	margin-top:16px;
+}
+.mainBox .cent label {
+	display: inline-block;
+	float: left;
+	width: 40px;
+	height:40px;
+	border:1px solid #ccc;
+	background: #eee;
+}
+
+.mainBox .cent label i {
+	display: inline-block;
+	width: 24px;
+	height:24px;
+	margin-top:8px;
+	margin-left:8px;
+	background: url(../img/enter2.png) no-repeat;
+}
+.mainBox .cent .user i {
+	background-position: -50px 0px;
+}
+.mainBox .cent .parssd i {
+	background-position: -80px 0px;
+}
+.mainBox .cent .verify i {
+	background-position: -424px 0px;
+}
+.mainBox .cent .verify2 i {
+	background-position: -262px 0px;
+}
+.mainBox .cent input {
+	display: inline-block;
+	float: left;
+	width: 206px;
+	height:38px;
+	padding-left:16px;
+	font-size: 16px;
+	outline-width: 0px;
+	color:#999;
+}
+.mainBox .cent .verify21 {
+	width: 96px;
+}
+.mainBox .cent button {
+	width: 110px;
+	height:42px;
+	cursor: pointer;
+}
+.mainBox .cent .ent {
+	display: inline-block;
+	width: 270px;
+	height:42px;
+	line-height: 42px;
+	margin-top:16px;
+	text-align: center;
+	border-radius:4px;
+	color:#fff;
+	font-size: 18px;
+	text-decoration: none;
+	background:#e00;
+}
+.mainBox .cent .checkbox {
+	display: inline-block;
+	width: 14px;
+	height:14px;
+	margin-top:14px;
+	margin-right:6px;
+}
+.mainBox .cent .flat {
+	width: 270px;
+	height:42px;
+	line-height: 42px;
+	border:0px solid #ccc;	
+	margin-top:0px;
+}
+.mainBox .cent .flat .left {
+	float: left;
+	color:#999;
+}
+.mainBox .cent .flat .right {
+	float: right;
+}
+.mainBox .cent .flat .sub {
+	color:#999;
+	margin-right:8px;
+}
+.centent .flat2 {
+	width: 270px;
+	height:52px;
+	line-height: 52px;
+}
+.centent  .flat2 span {
+	display: inline-block;
+	float: left;
+	color:#999;
+	margin-right: 10px;
+}
+ .centent .flat2 a {
+	display: inline-block;
+	width: 32px;
+	height:32px;
+	float: left;
+	margin-top:10px;
+	margin-left: 8px;
+	background: url(../img/enter2.png) no-repeat;
+}
+.centent  .flat2 .qq {
+	background-position: 1px -34px;
+}
+.centent  .flat2 .sina {
+	background-position: -50px -34px;
+}
+.centent  .flat2 .zhifubao {
+	background-position: -101px -34px;
+}
+.centent  .flat2 .baidu {
+	background-position: -152px -34px;
+}
+
+
+/*centent end*/
+
+/*footer start*/
+.footerWrap {
+	width: 100%;
+	min-width: 1000px;
+	height: 200px;
+	text-align: center;
+}
+.footer {
+	width:1000px;
+	height:200px;
+	margin:0 auto;
+	padding-top:50px;
+}
+.footer p {
+	margin-top:12px;
+}
+.footer .red {
+	color:#f00;
+}
+/*footer end*/
+
+
+
+
+

@@ -1,0 +1,295 @@
+body,h1,h2,h3,h4,ul,li,input,label,p {
+	margin:0;
+	padding:0;
+}
+body {
+	background:#FFF;
+	font-size: 12px;
+	color:#333;
+	font-family: "微软雅黑";
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.clear {
+	clear: both;
+}
+
+/*top satrt*/
+.topWrap {
+	width: 100%;
+	min-width: 1000px;
+	height:88px;
+}
+.top {
+	width: 1000px;
+	height:88px;
+	line-height:88px;
+	margin:0 auto;
+	text-align: center;
+}
+.topLeft {
+	float: left;
+	
+}
+.topRight {
+	float:right;
+}
+.topLeft a {
+	float:left;
+	margin-top:11px;
+	
+}
+.topLeft h2 {
+	float:left;
+	width: 200px;
+	height: 60px;
+	line-height: 20px;
+	text-align: left;
+	margin-left:8px;
+	margin-top:14px;
+	padding-left:8px;
+	color:#666;
+	border-left:2px solid #ccc;
+}
+.topLeft h2 span {
+	display: block;
+	width:60px;
+	height:32px;
+	line-height: 32px;
+	color:#c00;
+}
+.topRight {
+	height:88px;
+	line-height: 110px;
+	margin-right:16px;
+}
+.topRight .mark {
+	color:#999;
+}
+.topRight a {
+	margin-left:16px;
+}
+.topRight .help {
+	display: inline-block;
+	float: right;
+	margin-left:24px
+}
+/*top end*/
+
+/*centent start*/
+.centent {
+	
+	width:100%;
+	min-width: 1000px;
+	height:800px;
+	background: url(../img/lobin1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.centent .mainWrap {
+	position: relative;
+	width: 1000px;
+	height: 800px;
+	margin:0px auto;
+}
+.centent .main {
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:1000px;
+	height:800px;
+}
+.main .title {
+	height: 30px;
+	float: right;border:
+}
+.main .title h3{
+	float: left;
+	margin-right:30px;
+	cursor: pointer;
+	background: #FF9900;
+	color:#fff;
+	box-shadow: 0px 0px 0px 0px #fff;
+	padding:4px 8px;
+	border-radius:3px;
+}
+.main .title .current {
+	color:#FF9900;
+	background: #FFF;
+	border:2px solid #fff;
+	box-shadow: 0px -2px 1px 1px #ccc;
+}
+.centent .mainBox {
+	width:980px;
+	padding:10px;
+	box-shadow: 0px 0px 2px 3px #ccc;
+	background:#fff;
+}
+
+.mainBox .cent {
+	width:600px;
+	margin:60px auto;
+}
+.mainBox .bottom {
+	height: 46px;
+}
+
+
+.mainBox .centBox {
+	display: none;
+}
+.mainBox .current {
+	display: block;
+}
+.mainBox .cent p {
+  width: 600px;
+	height:42px;
+	/*border:1px solid #ccc;	*/
+	margin-top:16px;
+}
+.mainBox .cent p .mark2 {
+	display: inline-block;
+	height:42px;
+	line-height: 42px;
+	color:#FF9900;
+	margin-left:8px;
+	font-weight: 800;
+	font-size: 18px;
+}
+.mainBox .cent label {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 80px;
+	height:40px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: right;
+	margin-right: 20px;
+	/*border:1px solid #ccc;*/
+	/*background: #eee;*/
+}
+
+.mainBox .cent label i {
+	position: absolute;
+	left:100px;
+	top:0px;
+	display: inline-block;
+	width: 24px;
+	height:24px;
+	margin-top:8px;
+	margin-left:8px;
+	background: url(../img/enter2.png) no-repeat;
+}
+.mainBox .cent .user i {
+	background-position: -50px 0px;
+}
+.mainBox .cent .parssd i {
+	background-position: -80px 0px;
+}
+.mainBox .cent .verify i {
+	background-position: -424px 0px;
+}
+.mainBox .cent .verify2 i {
+	background-position: -262px 0px;
+}
+.mainBox .cent .em i {
+	background-position: -230px 6px;
+}
+.mainBox .cent .shouji i {
+	background-position: -264px 0px;
+}
+.mainBox .cent .tel i {
+	background-position: -296px 0px;
+}
+.mainBox .cent .name1 i {
+	background-position: -326px 0px;
+}
+.mainBox .cent .aress i {
+	background-position: -362px 0px;
+}
+.mainBox .cent input {
+	display: inline-block;
+	float: left;
+	width: 320px;
+	height:38px;
+	padding-left:36px;
+	font-size: 16px;
+	outline-width: 0px;
+	color:#999;
+}
+.mainBox .cent .verify21 {
+	width: 160px;
+}
+.mainBox .cent button {
+	width: 150px;
+	height:42px;
+	margin-left: 10px;
+	border-radius:5px;
+	border:1px solid #aaa;
+	cursor: pointer;
+	outline-width: 0px;
+}
+.mainBox .cent .ent {
+	display: inline-block;
+	width: 360px;
+	height:42px;
+	line-height: 42px;
+	margin-left:100px;
+	text-align: center;
+	border-radius:4px;
+	color:#fff;
+	font-size: 18px;
+	background:#e00;
+	text-decoration: none;
+}
+.mainBox .cent .checkbox {
+	display: inline-block;
+	width: 14px;
+	height:14px;
+	margin:2px 6px 0px 100px;
+}
+
+.mainBox .cent .flat .span {
+	color:#999;
+}
+.mainBox .cent .boxTitle {
+	margin-top:20px;
+}
+.mainBox .cent .boxTitle span {
+	font-size: 12px;
+	color:#FF9900;
+	margin-left:16px;
+	
+}
+.mainBox .cent .hr {
+	width:600px;
+	height: 0px;
+	border-top:1px dashed #ccc;
+}
+/*centent end*/
+
+/*footer start*/
+.footerWrap {
+	width: 100%;
+	min-width: 1000px;
+	height: 200px;
+	text-align: center;
+	margin-top:200px;
+}
+.footer {
+	width:1000px;
+	height:200px;
+	margin:0 auto;
+	padding-top:50px;
+}
+.footer p {
+	margin-top:12px;
+}
+.footer .red {
+	color:#f00;
+}
+/*footer end*/
